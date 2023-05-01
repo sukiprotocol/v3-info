@@ -79,7 +79,7 @@ const Title = styled(NavLink)`
   `};
 `
 
-const UniIcon = styled.div`
+const SukiIcon = styled.div`
   transition: transform 0.3s ease;
   :hover {
     transform: rotate(-5deg);
@@ -161,9 +161,9 @@ export default function Header() {
     <HeaderFrame>
       <HeaderRow>
         <Title to={networkPrefix(activeNewtork)}>
-          <UniIcon>
+          <SukiIcon>
             <img width={'24px'} src={LogoDark} alt="logo" />
-          </UniIcon>
+          </SukiIcon>
         </Title>
         <HeaderLinks>
           <StyledNavLink

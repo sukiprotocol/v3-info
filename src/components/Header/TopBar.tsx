@@ -45,9 +45,9 @@ const TopBar = () => {
           </RowFixed>
         </AutoRow>
         <AutoRow gap="6px" style={{ justifyContent: 'flex-end' }}>
-          <StyledLink href="https://v2.info.uniswap.org/#/">V2 Analytics</StyledLink>
-          <StyledLink href="https://docs.uniswap.org/">Docs</StyledLink>
-          <StyledLink href="https://app.uniswap.org/#/swap">App</StyledLink>
+          <StyledLink href="https://sukiswap.com/#/swap">Swap</StyledLink>
+          <StyledLink href="https://sukiswap.com/#/pools">Pools</StyledLink>
+          <StyledLink href="/">Bridge</StyledLink>
         </AutoRow>
       </RowBetween>
     </Wrapper>
